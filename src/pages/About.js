@@ -11,7 +11,7 @@ const About = () => {
       <div style={styles.aboutMe}>
         <div style={styles.leftHalf}>
           <p style={styles.aboutText}>
-            A little bit about me: I am a student specializing in computer
+            A little bit about me: I am a student majoring in computer
             science actively pursuing opportunities for a full-time position or
             internship in Software Engineering. This website serves as an
             extended introduction to my professional profile.
