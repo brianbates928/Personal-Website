@@ -1,14 +1,14 @@
 
 {
-    "name": "Sandeep's Personal Website",
+    "name": "Brian's Personal Website",
     "description": "This is my own personal website with more about me and my career!",
     "start_url": "/",
     "display": "standalone",
     "icons": [
       {
-        "src": "images/Sikh.png",
+        "src": "images/program.jpg",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/jpg"
       }
     ]
   }
