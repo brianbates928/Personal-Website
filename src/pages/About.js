@@ -1,7 +1,7 @@
 import { styles } from "./AboutStyles";
 
 const About = () => {
-  const Picture = `${process.env.PUBLIC_URL}/images/niagara.jpg`;
+  const Picture = `${process.env.PUBLIC_URL}/images/niagara.png`;
   return (
     <div style={styles.container}>
       <div style={styles.contactInfo}>
