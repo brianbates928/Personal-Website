@@ -24,11 +24,11 @@ const Experience = () => {
   const bottomRowSkills = skills.slice(5);
 
   const downloadPDF = () => {
-    const pdfFilePath = process.env.PUBLIC_URL + "/brianjbates.pdf";
+    const pdfFilePath = process.env.PUBLIC_URL + "/My Resume.pdf";
 
     const link = document.createElement("a");
     link.href = pdfFilePath;
-    link.download = `Brians's Resume`;
+    link.download = `Brian's Resume`;
     link.click();
   };
   return (
@@ -54,12 +54,12 @@ const Experience = () => {
         <p style={styles.headName}>Education</p>
         <div style={styles.educationBox}>
           <div style={styles.educationTop}>
-            <h>NJIT, NEW JERESY INSTITUTE OF TECHNOLOGY</h>
+            <h> NJIT, NEW JERSEY INSTITUTE OF TECHNOLOGY </h>
             <h> NEWARK, NJ</h>
           </div>
           <div style={styles.educationBottom}>
-            <h>Expected Graduation: May 2024</h>
-            <h>B.S. in Computer Science</h>
+            <h>Expected Graduation: May 2024 </h>
+            <h>B.S. in Computer Science </h>
           </div>
         </div>
       </div>
