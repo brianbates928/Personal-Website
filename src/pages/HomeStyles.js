@@ -1,6 +1,6 @@
 const styles = {
   background: {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/images/Forest.jpg)`,
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/Forest.png)`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
     WebkitBackgroundSize: "cover",
