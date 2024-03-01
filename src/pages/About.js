@@ -12,7 +12,7 @@ const About = () => {
         <div style={styles.leftHalf}>
           <p style={styles.aboutText}>
             A little bit about me: I am a student majoring in computer
-            science actively pursuing opportunities for a full-time position or
+            science. I am currently actively pursuing opportunities for a full-time position or
             internship in Software Engineering. This website serves as an
             extended introduction to my professional profile.
           </p>
