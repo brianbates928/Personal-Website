@@ -6,9 +6,9 @@
     "display": "standalone",
     "icons": [
       {
-        "src": "images/program.jpg",
+        "src": "images/program.png",
         "sizes": "192x192",
-        "type": "image/jpg"
+        "type": "image/png"
       }
     ]
   }
