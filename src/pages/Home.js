@@ -1,7 +1,7 @@
 import { styles } from "./HomeStyles";
 
 const Home = () => {
-  const MobileBeach = `${process.env.PUBLIC_URL}/images/Forest.jpg`;
+  const MobileBeach = `${process.env.PUBLIC_URL}/images/Forest.png`;
 
   const isMobile = window.innerWidth < 900;
 
