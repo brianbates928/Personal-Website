@@ -1,7 +1,6 @@
 const styles = {
   container: {
     display: "flex",
-    // backgroundColor: "#4A4A4A",
     flexDirection: "column",
     height: "100%",
   },
@@ -24,12 +23,16 @@ const styles = {
   leftHalf: {
     flex: 1,
     display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
     alignItems: "center",
   },
   rightHalf: {
     flex: 1,
     display: "flex",
+    flexDirection: "column",
     justifyContent: "center",
+    alignItems: "center",
   },
   aboutText: {
     color: "white",
@@ -56,9 +59,7 @@ const styles = {
 const mediaStyles = {
   container: {
     display: "flex",
-    // backgroundColor: "#4A4A4A",
     flexDirection: "column",
-    // alignItems: "flex-start",
     height: "100%",
     paddingTop: "5vh",
   },
@@ -88,18 +89,21 @@ const mediaStyles = {
   },
   aboutMe: {
     display: "flex",
-    flexDirection: "column",
-  },
-  rightHalf: {
-    flex: 1,
-    display: "flex",
-    justifyContent: "flex-end",
+    flexDirection: "row",
   },
   leftHalf: {
     flex: 1,
     display: "flex",
-    width: "90%",
-    alignItems: "flex-start",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  rightHalf: {
+    flex: 1,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
   },
   image: {
     width: "35vw",

@@ -2,7 +2,7 @@ const styles = {
   sideNavStyle: {
     display: "flex",
     flexDirection: "column",
-    width: "25vw",
+    width: "15vw",
     // backgroundColor: "#646464",
     paddingTop: "5.5em",
   },
