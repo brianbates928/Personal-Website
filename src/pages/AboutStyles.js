@@ -89,7 +89,7 @@ const mediaStyles = {
   },
   aboutMe: {
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
   },
   leftHalf: {
     flex: 1,
