@@ -71,7 +71,7 @@ const mediaStyles = {
   },
   contactInfo: {
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "row",
     alignItems: "flex-start",
     marginLeft:"2vw",
   },
