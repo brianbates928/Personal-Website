@@ -13,7 +13,7 @@ const styles = {
     flexDirection: "column",
     alignItems: "flex-start",
     paddingLeft: "5vw",
-    paddingTop: "65vh",
+    paddingTop: "15vh",
   },
   name: {
     fontFamily: "Acme",
@@ -25,7 +25,7 @@ const styles = {
     fontFamily: "Actor",
     fontSize: "1.563rem",
     color: "white",
-    borderBottom: "0.5vh solid #3C84AC",
+    borderBottom: "0.5vh",
     marginBottom: "1vh",
   },
 };
