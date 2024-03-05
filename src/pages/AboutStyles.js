@@ -71,7 +71,7 @@ const mediaStyles = {
   },
   contactInfo: {
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     alignItems: "flex-start",
     marginLeft:"2vw",
   },
@@ -114,7 +114,7 @@ const mediaStyles = {
     padding: "1vh",
     backgroundColor: "#181521",
     borderRadius: "1.25em",
-    marginTop: "-6vh",
+    marginTop: "2vh",
     marginLeft: "3vw",
   },
 };
