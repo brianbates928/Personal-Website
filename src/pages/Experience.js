@@ -24,7 +24,7 @@ const Experience = () => {
   const bottomRowSkills = skills.slice(5);
 
   const downloadPDF = () => {
-    const pdfFilePath = process.env.PUBLIC_URL + "/My Resume.pdf";
+    const pdfFilePath = process.env.PUBLIC_URL + "/BrianJBates.pdf";
 
     const link = document.createElement("a");
     link.href = pdfFilePath;
