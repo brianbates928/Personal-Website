@@ -77,6 +77,24 @@ const styles = {
     fontSize: "2.5vh",
     color: "white",
   },
+  button: {
+    backgroundColor: "#1E1E1E",
+    color: "white",
+    borderRadius: ".5em",
+    boxShadow:
+      "0 0.5px 0.5px black, 0 0.5px 0.5px black,inset 0 0.5px 0.5px black, inset 0 0 10px black",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "5vw",
+    height: "5vh",
+    border: "none",
+  },
+  download: {
+    marginLeft: "0.5vw",
+    width: "10px",
+    height: "10px",
+  },
 };
 
 const mediaStyles = {
@@ -156,6 +174,25 @@ const mediaStyles = {
     fontSize: "1.8vh",
     color: "white",
     marginRight: "0.5em",
+  },
+  button: {
+    backgroundColor: "#1E1E1E",
+    color: "white",
+    fontSize: "1.5vh",
+    borderRadius: "1em",
+    boxShadow:
+      "0 2px 2px black, 0 2px 2px black,inset 0 2px 2px black, inset 0 0 10px black",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "5vw",
+    height: "5vh",
+    border: "none",
+  },
+  download: {
+    marginLeft: "1vw",
+    width: "10px",
+    height: "10px",
   },
 };
 

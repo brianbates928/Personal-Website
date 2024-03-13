@@ -18,19 +18,10 @@ const Experience = () => {
     "AWS",
     "Linux",
   ];
-  const Download = `${process.env.PUBLIC_URL}/images/Download.png`;
-
+  
   const topRowSkills = skills.slice(0, 5);
   const bottomRowSkills = skills.slice(5);
 
-  const downloadPDF = () => {
-    const pdfFilePath = process.env.PUBLIC_URL + "/BrianJBates.pdf";
-
-    const link = document.createElement("a");
-    link.href = pdfFilePath;
-    link.download = `Brians's Resume`;
-    link.click();
-  };
   return (
     <div style={styles.container}>
       <div style={styles.skills}>
@@ -81,12 +72,6 @@ const Experience = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div style={styles.resume}>
-        <button style={styles.button} onClick={() => downloadPDF()}>
-          Resume
-          <img style={styles.download} src={Download} alt="Download" />
-        </button>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import { styles } from "./SideNavStyles";
 
 export function SideNav() {
   const Github = `${process.env.PUBLIC_URL}/images/Github.png`;
-  const Instagram = `${process.env.PUBLIC_URL}/images/Instagram.png`;
+  const Download = `${process.env.PUBLIC_URL}/images/Download.png`;
   const Linkedin = `${process.env.PUBLIC_URL}/images/Linkedin.png`;
   const Home = `${process.env.PUBLIC_URL}/images/Home.png`;
   const About = `${process.env.PUBLIC_URL}/images/About.png`;
@@ -20,7 +20,7 @@ export function SideNav() {
     let websiteURL = "";
     if (social === "Github") {
       websiteURL = "https://github.com/brianbates928";
-    } else if (social === "Instagram") {
+    } else if (social === "Download") {
       websiteURL = "https://www.instagram.com/brinbats/";
     } else if (social === "Linkedin") {
       websiteURL = "https://www.linkedin.com/in/brianjbates/";
@@ -43,6 +43,14 @@ export function SideNav() {
     }
   };
 
+  const downloadPDF = () => {
+    const pdfFilePath = process.env.PUBLIC_URL + "/BrianJBates.pdf";
+
+    const link = document.createElement("a");
+    link.href = pdfFilePath;
+    link.download = `Brians's Resume`;
+    link.click();
+  };
   return (
     <div style={styles.sideNavStyle}>
       <div style={styles.namesocial}>
@@ -54,18 +62,16 @@ export function SideNav() {
             alt="Github"
             onClick={() => handleOpenWebsite("Github")}
           />
-          <img
-            style={styles.insta}
-            src={Instagram}
-            alt="Instagram"
-            onClick={() => handleOpenWebsite("Instagram")}
-          />
-          <img
+           <img
             style={styles.linkedin}
             src={Linkedin}
             alt="Linkedin"
             onClick={() => handleOpenWebsite("Linkedin")}
           />
+         <button style={styles.button} onClick={() => downloadPDF()}>
+          Resume
+          <img style={styles.download} src={Download} alt="Download" />
+          </button>
         </div>
       </div>
       <div style={styles.pages}>
