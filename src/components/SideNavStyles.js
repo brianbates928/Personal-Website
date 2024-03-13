@@ -185,7 +185,7 @@ const mediaStyles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    width: "5vw",
+    width: "20vw",
     height: "5vh",
     border: "none",
   },
