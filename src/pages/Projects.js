@@ -13,8 +13,10 @@ const Projects = () => {
       websiteURL = "https://github.com/brianbates928/taxidriver";
     } else if (project === "AWS Certified Cloud Practitioner Training (In Progress)") {
       websiteURL = "https://aws.amazon.com/certification/certified-cloud-practitioner/";
-    } else {
-      return;
+    } else if (project === "IBM Cybersecurity Analyst Professional Certificate Courses (In Progress)") {
+      websiteURL = "https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst";
+    }else {
+      return; 
     }
     window.open(websiteURL, "_blank");
   };
@@ -89,6 +91,14 @@ const Projects = () => {
         color="2"
         text1="Currently undergoing AWS training modules to prepare for the AWS Certified Cloud Practitioner exam."
         text2="The plan is to complete the training and take the exam in early May."
+
+/>
+<ProjectReturner
+        title="IBM Cybersecurity Analyst Professional Certificate (In Progress)"
+        button="Link to Certificate Page"
+        color="2"
+        text1="Currently enrolled IBM Cybersecurity Analyst Professional Certificate courses to become certified."
+        text2="The plan is to complete the training and take the exam by mid April."
 
 />
     </div>
