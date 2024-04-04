@@ -163,7 +163,7 @@ const mediaStyles = {
     flexDirection: "column",
     justifyContent: "center",
     width: "100%",
-    wordWrap: "break-word",
+        wordWrap: "break-word",
 
   },
   experiencesBoxStart: {
@@ -171,7 +171,7 @@ const mediaStyles = {
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     // fontWeight: "bold",
-    fontSize: "2.3vh",
+    fontSize: "1.7vh",
     width: "55vw",
     height: "15vh",
     display: "flex",
