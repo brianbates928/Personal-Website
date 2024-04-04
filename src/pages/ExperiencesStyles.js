@@ -69,20 +69,17 @@ const styles = {
     padding: "1vw",
   },
   experiences: {
-    flex: 1.5,
-  },
-  experienceBoxes: {
-    display: "flex",
-    justifyContent: "space-between",
-    width: "95%",
-  },
-  experiencesBoxStart: {
+    display: "flex", 
+    flexDirection: "row",
+    gap: "40px",
+  },  
+  experiencesBox: {
     backgroundColor: "#D9D9D9",
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     fontWeight: "bold",
     fontSize: "2.5vh",
-    width: "30vw",
+    width: "25vw",
     height: "19vh",
     display: "flex",
     flexDirection: "column",
@@ -90,32 +87,6 @@ const styles = {
     justifyContent: "center",
     boxShadow:
       "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
-  },
-  experiencesBoxEnd: {
-    backgroundColor: "#D9D9D9",
-    borderRadius: "1.25em",
-    fontFamily: "Kavivanar",
-    fontWeight: "bold",
-    fontSize: "2.5vh",
-    width: "30vw",
-    height: "19vh",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    boxShadow:
-      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
-  },
-  experienceLeft: {},
-  experienceRight: {},
-  resume: {
-    flex: 0.5,
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "flex-end",
-    alignItems: "end",
-    padding: "3vh",
-    width: "95%",
   },
  
 };
@@ -232,16 +203,6 @@ const mediaStyles = {
     justifyContent: "flex-end",
     marginBottom: "3vh",
   },
-  resume: {
-    flex: 0.5,
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "flex-end",
-    alignItems: "end",
-    padding: "3vh",
-    width: "100%",
-  },
- 
 };
 
 const mergedStyles = window.matchMedia("(max-width: 900px)").matches

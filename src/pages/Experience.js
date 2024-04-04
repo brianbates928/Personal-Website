@@ -54,24 +54,29 @@ const Experience = () => {
           </div>
         </div>
       </div>
+      <p style={styles.headName}>Experiences</p>
+
       <div style={styles.experiences}>
-        <p style={styles.headName}>Experiences</p>
-        <div style={styles.experienceBoxes}>
-          <div style={styles.experienceLeft}>
-            <div style={styles.experiencesBoxStart}>
+        <div style={styles.experiencesBox}>
+    
+              <h> Software Engineer Intern</h>
+              <h>Visual Intelligence, LLC</h>
+              <h>January 2024 - Present</h>
+              </div>
+
+              <div style={styles.experiencesBox}>
+
               <h>Produce Clerk</h>
               <h>Shoprite, Rochelle Park, NJ</h>
               <h>May 2021 - Present</h>
-            </div>
-          </div>
-          <div style={styles.experienceRight}>
-            <div style={styles.experiencesBoxEnd}>
+              </div>
+
+              <div style={styles.experiencesBox}>
+
               <h>Summer Tech Help</h>
               <h>Fair Lawn School District, Fair Lawn, NJ</h>
               <h>July 2018 - September 2019</h>
             </div>
-          </div>
-        </div>
       </div>
     </div>
   );
