@@ -103,6 +103,7 @@ const mediaStyles = {
     flexDirection: "row",
     marginBottom: "1vh",
     width: "100%",
+    wordWrap: "break-word",
   },
   headName: {
     display: "flex",
@@ -175,6 +176,7 @@ const mediaStyles = {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
+    wordWrap: "break-word",
     boxShadow:
       "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
   },
@@ -190,6 +192,7 @@ const mediaStyles = {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
+    wordWrap: "break-word",
     boxShadow:
       "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
   },
