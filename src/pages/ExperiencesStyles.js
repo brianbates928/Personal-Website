@@ -163,6 +163,8 @@ const mediaStyles = {
     flexDirection: "column",
     justifyContent: "center",
     width: "100%",
+    wordWrap: "break-word",
+
   },
   experiencesBoxStart: {
     backgroundColor: "#D9D9D9",
