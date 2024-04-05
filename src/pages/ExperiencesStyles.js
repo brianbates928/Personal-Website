@@ -171,7 +171,9 @@ const mediaStyles = {
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     // fontWeight: "bold",
-    fontSize: "1vh",
+    fontSize: "0.8vh", // Adjust this value
+  overflow: "auto", // Add this line
+  whiteSpace: "pre-wrap", // Add this line
     width: "55vw",
     height: "15vh",
     display: "flex",
@@ -187,7 +189,9 @@ const mediaStyles = {
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     // fontWeight: "bold",
-    fontSize: "1vh",
+    fontSize: "0.8vh", // Adjust this value
+  overflow: "auto", // Add this line
+  whiteSpace: "pre-wrap", // Add this line
     width: "55vw",
     height: "15vh",
     display: "flex",
