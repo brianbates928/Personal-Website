@@ -61,7 +61,7 @@ const Experience = () => {
     
               <h> Software Engineer Intern</h>
               <h>Visual Intelligence, LLC</h>
-              <h>January 2024 - Present</h>
+              <h>January 2024 - May 2024</h>
               </div>
 
               <div style={styles.experiencesBox}>
