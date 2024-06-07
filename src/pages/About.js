@@ -11,12 +11,13 @@ const About = () => {
       <div style={styles.aboutMe}>
         <div style={styles.leftHalf}>
           <p style={styles.aboutText}>
-            A little bit about me: I am a student majoring in computer science with a May 2024 graduation date. 
-            I am currently actively pursuing opportunities for a full-time position or internship in Software Engineering. 
-            This website serves as an extended introduction to my professional profile.
-          </p>
-          <p style={styles.aboutText}>
-          Some personal, non-technical, goals of mine are to continue traveling to all of America's national parks and to run a marathon.
+            A little bit about me: I received my B.S. in computer science from NJIT in May 2024. 
+            I am currently actively pursuing opportunities for a full-time position in Software Engineering. 
+            This website serves as an extended introduction to my professional profile. You can find the full Javascript code for this website on my Github.
+<br></br><br></br>
+          Some personal, non-technical, goals of mine are to continue traveling to all of America's national parks and to run a marathon. 
+          My current favorite national park is either Acadia in Maine or Olympic in Washinton. 
+          Running has been really inconsistent for me these past 4 years but with the completion of college I plan on having a more concrete plan. 
 </p>
           
         </div>
