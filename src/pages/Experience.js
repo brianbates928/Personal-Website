@@ -17,6 +17,11 @@ const Experience = () => {
     "HTML/CSS",
     "AWS",
     "Linux",
+    "Express",
+    "Git",
+    "WordPress",
+    "CyberSecurity",
+    "Agile Methodologies",
   ];
   
   const topRowSkills = skills.slice(0, 5);
@@ -49,8 +54,8 @@ const Experience = () => {
             <h> NEWARK, NJ</h>
           </div>
           <div style={styles.educationBottom}>
-            <h>Expected Graduation: May 2024</h>
-            <h>B.S. in Computer Science</h>
+            <h>Graduation: May 2024</h>
+            <h>Degree: B.S. in Computer Science</h>
           </div>
         </div>
       </div>
@@ -68,7 +73,7 @@ const Experience = () => {
 
               <h>Produce Clerk</h>
               <h>Shoprite, Rochelle Park, NJ</h>
-              <h>May 2021 - Present</h>
+              <h>May 2021 - May 2024</h>
               </div>
 
               <div style={styles.experiencesBox}>
