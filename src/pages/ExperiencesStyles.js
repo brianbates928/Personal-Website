@@ -25,6 +25,20 @@ const styles = {
     justifyContent: "space-around",
     flexWrap: "wrap",
   },
+  class: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    margin: '20px',
+    padding: '20px',
+    
+    border: '1px solid #000',
+    borderRadius: '1.25em',
+    backgroundColor: '#D9D9D9',
+    boxShadow:
+      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
+  },
   skillbox: {
     backgroundColor: "#D9D9D9",
     width: "11vw",
