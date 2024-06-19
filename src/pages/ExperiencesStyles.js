@@ -32,7 +32,7 @@ const styles = {
     justifyContent: 'center',
     margin: '20px',
     padding: '20px',
-    
+    fontFamily: "Black Ops One",
     border: '1px solid #000',
     borderRadius: '1.25em',
     backgroundColor: '#D9D9D9',
