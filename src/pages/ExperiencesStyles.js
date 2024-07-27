@@ -181,7 +181,7 @@ const mediaStyles = {
     justifyContent: "center",
     width: "100%",
     wordWrap: "break-word",
-    frontsize: "2",
+    frontsize: "2vh",
   },
   experiencesBoxStart: {
     backgroundColor: "#D9D9D9",
