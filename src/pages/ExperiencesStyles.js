@@ -111,8 +111,7 @@ const mediaStyles = {
     flexDirection: "column",
     height: "100%",
     paddingTop: "5vh",
-    fontSize: "1vw",
-
+    fontSize: "1.3vh",
   },
   skills: {
     flex: 1.5,
@@ -183,65 +182,13 @@ const mediaStyles = {
     justifyContent: "center",
     width: "100%",
     wordWrap: "break-word",
-    frontsize: "2vh",
+    fontSize: "1.3vh",
   },
   experiences: {
     display: "flex", 
     flexDirection: "row", // change this to 'column' for mobile
     gap: "20px", // adjust this value as needed
-    fontSize: "1vw",
-
-  },
-  experiencesBoxStart: {
-    backgroundColor: "#D9D9D9",
-    borderRadius: "1.25em",
-    fontFamily: "Kavivanar",
-    // fontWeight: "bold",
-    //fontSize: "0.8vh", // Adjust this value
-    fontSize: "1vm",
-
-  overflow: "auto", // Add this line
-  whiteSpace: "pre-wrap", // Add this line
-    width: "55vw",
-    height: "15vh",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    wordWrap: "break-word",
-    boxShadow:
-      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
-  },
-  experiencesBoxEnd: {
-    backgroundColor: "#D9D9D9",
-    borderRadius: "1.25em",
-    fontFamily: "Kavivanar",
-    // fontWeight: "bold",
-   // fontSize: "0.8vh", // Adjust this value
-  overflow: "auto", // Add this line
-  whiteSpace: "pre-wrap", // Add this line
-    width: "55vw",
-    height: "15vh",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    wordWrap: "break-word",
-    fontSize: "1vw",
-    boxShadow:
-      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
-  },
-  experienceLeft: {
-    display: "flex",
-    justifyContent: "flex-start",
-    marginBottom: "3vh",
-     fontSize: "1",
-  },
-  experienceRight: {
-    display: "flex",
-    justifyContent: "flex-end",
-    marginBottom: "3vh",
-    fontSize: "1",
+    fontSize: "1.3vh",
 
   },
   class: {
