@@ -133,11 +133,10 @@ const mediaStyles = {
     height: "8vh",
     borderRadius: "1.25em",
     fontFamily: "Indie Flower",
-    fontSize: "1.8vh",
+    fontSize: "1vh",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    overflow: "auto",
     boxShadow:
       "0 4px 4px #017777, 0 4px 4px #017777,inset 0 4px 4px #017777, inset 0 0 30px black",
   },
@@ -182,7 +181,6 @@ const mediaStyles = {
     justifyContent: "center",
     width: "100%",
     wordWrap: "break-word",
-    overflow: "auto",
 
   },
   experiencesBoxStart: {
@@ -191,7 +189,7 @@ const mediaStyles = {
     fontFamily: "Kavivanar",
     // fontWeight: "bold",
     //fontSize: "0.8vh", // Adjust this value
-    fontSize: "1.5",
+    fontSize: "1",
 
   overflow: "auto", // Add this line
   whiteSpace: "pre-wrap", // Add this line
