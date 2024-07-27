@@ -137,6 +137,7 @@ const mediaStyles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    overflow: "auto",
     boxShadow:
       "0 4px 4px #017777, 0 4px 4px #017777,inset 0 4px 4px #017777, inset 0 0 30px black",
   },
@@ -149,6 +150,7 @@ const mediaStyles = {
     borderRadius: "1.25em",
     width: "100%",
     marginBottom:"2vh",
+    overflow: "auto",
     boxShadow:
       "0 4px 4px #011B77, 0 4px 4px #011B77,inset 0 4px 4px #011B77, inset 0 0 35px black",
   },
@@ -161,6 +163,7 @@ const mediaStyles = {
     paddingTop: "3vh",
     paddingLeft: "1.8vw",
     paddingRight: "1.8vw",
+    overflow: "auto",
   },
   educationBottom: {
     fontFamily: "Alegreya",
@@ -171,13 +174,15 @@ const mediaStyles = {
     paddingBottom: "3vh",
     paddingLeft: "1.8vw",
     paddingRight: "1.8vw",
+    overflow: "auto",
   },
   experienceBoxes: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     width: "100%",
-        wordWrap: "break-word",
+    wordWrap: "break-word",
+    overflow: "auto",
 
   },
   experiencesBoxStart: {
@@ -195,6 +200,7 @@ const mediaStyles = {
     alignItems: "center",
     justifyContent: "center",
     wordWrap: "break-word",
+    overflow: "auto",
     boxShadow:
       "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
   },
@@ -213,6 +219,7 @@ const mediaStyles = {
     alignItems: "center",
     justifyContent: "center",
     wordWrap: "break-word",
+    overflow: "auto",
     boxShadow:
       "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
   },
@@ -220,11 +227,14 @@ const mediaStyles = {
     display: "flex",
     justifyContent: "flex-start",
     marginBottom: "3vh",
+    overflow: "auto",
+
   },
   experienceRight: {
     display: "flex",
     justifyContent: "flex-end",
     marginBottom: "3vh",
+    overflow: "auto",
   },
 };
 
