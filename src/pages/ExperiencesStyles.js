@@ -202,7 +202,6 @@ const mediaStyles = {
     alignItems: "center",
     justifyContent: "center",
     wordWrap: "break-word",
-    overflow: "auto",
     boxShadow:
       "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
   },
