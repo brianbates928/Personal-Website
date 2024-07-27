@@ -111,6 +111,8 @@ const mediaStyles = {
     flexDirection: "column",
     height: "100%",
     paddingTop: "5vh",
+    fontSize: "1vw",
+
   },
   skills: {
     flex: 1.5,
@@ -187,7 +189,7 @@ const mediaStyles = {
     display: "flex", 
     flexDirection: "row", // change this to 'column' for mobile
     gap: "20px", // adjust this value as needed
-    fontSize: "1.5vw",
+    fontSize: "1vw",
 
   },
   experiencesBoxStart: {
@@ -196,7 +198,7 @@ const mediaStyles = {
     fontFamily: "Kavivanar",
     // fontWeight: "bold",
     //fontSize: "0.8vh", // Adjust this value
-    fontSize: "1",
+    fontSize: "1vm",
 
   overflow: "auto", // Add this line
   whiteSpace: "pre-wrap", // Add this line
