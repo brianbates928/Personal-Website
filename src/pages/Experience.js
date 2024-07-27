@@ -83,7 +83,7 @@ const Experience = () => {
 <p style={styles.headName}>Experiences</p>
 
 <div style={styles.experiences}>
-<div style={{...styles.experiencesBox, height: window.innerWidth <= 900 ? '0.13vh' : '19vh'}}>
+<div style={{...styles.experiencesBox, fontSize: window.innerWidth <= 900 ? '1.5vh' : '2.5vh'}}>
         <p>Software Engineer Intern</p>
         <p>Visual Intelligence, LLC</p>
         <p>January 2024 - May 2024</p>
