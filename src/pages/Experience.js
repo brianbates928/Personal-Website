@@ -90,15 +90,15 @@ const Experience = () => {
         </div>
 
         <div style={{...styles.experiencesBox, fontSize: window.innerWidth <= 900 ? '1.5vh' : '2.5vh'}}>
-        <h>Produce Clerk</h>
-        <h>Shoprite, Rochelle Park, NJ</h>
-        <h>May 2021 - May 2024</h>
+        <p>Produce Clerk</p>
+        <p>Shoprite, Rochelle Park, NJ</p>
+        <p>May 2021 - May 2024</p>
         </div>
 
         <div style={{...styles.experiencesBox, fontSize: window.innerWidth <= 900 ? '1.5vh' : '2.5vh'}}>
-        <h>Summer Tech Help</h>
-        <h>Fair Lawn School District, Fair Lawn, NJ</h>
-        <h>July 2018 - September 2019</h>
+        <p>Summer Tech Help</p>
+        <p>Fair Lawn School District, Fair Lawn, NJ</p>
+        <p>July 2018 - September 2019</p>
       </div>
 </div>
 
