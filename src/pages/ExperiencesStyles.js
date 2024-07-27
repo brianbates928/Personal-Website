@@ -188,7 +188,7 @@ const mediaStyles = {
     display: "flex", 
     flexDirection: "row", // change this to 'column' for mobile
     gap: "20px", // adjust this value as needed
-    fontSize: "1.3vh",
+    fontSize: "0.13vh",
 
   },
   class: {

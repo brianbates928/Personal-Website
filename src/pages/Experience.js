@@ -85,7 +85,7 @@ const Experience = () => {
 <div style={styles.experiences}>
   <div style={styles.experiencesBox}>
 
-        <p> Software Engineer Intern</p>
+        <p>Software Engineer Intern</p>
         <p>Visual Intelligence, LLC</p>
         <p>January 2024 - May 2024</p>
         </div>
