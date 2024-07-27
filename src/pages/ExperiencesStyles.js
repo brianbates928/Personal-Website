@@ -190,7 +190,9 @@ const mediaStyles = {
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     // fontWeight: "bold",
-    fontSize: "0.8vh", // Adjust this value
+    //fontSize: "0.8vh", // Adjust this value
+    fontSize: "1.5",
+
   overflow: "auto", // Add this line
   whiteSpace: "pre-wrap", // Add this line
     width: "55vw",
@@ -209,7 +211,7 @@ const mediaStyles = {
     borderRadius: "1.25em",
     fontFamily: "Kavivanar",
     // fontWeight: "bold",
-    fontSize: "0.8vh", // Adjust this value
+   // fontSize: "0.8vh", // Adjust this value
   overflow: "auto", // Add this line
   whiteSpace: "pre-wrap", // Add this line
     width: "55vw",
@@ -219,7 +221,7 @@ const mediaStyles = {
     alignItems: "center",
     justifyContent: "center",
     wordWrap: "break-word",
-    overflow: "auto",
+    fontSize: "1.5vw",
     boxShadow:
       "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
   },
@@ -227,14 +229,14 @@ const mediaStyles = {
     display: "flex",
     justifyContent: "flex-start",
     marginBottom: "3vh",
-    overflow: "auto",
-
+     fontSize: "1.5",
   },
   experienceRight: {
     display: "flex",
     justifyContent: "flex-end",
     marginBottom: "3vh",
-    overflow: "auto",
+    fontSize: "1.5",
+
   },
 };
 
