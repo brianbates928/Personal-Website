@@ -185,8 +185,10 @@ const mediaStyles = {
   },
   experiences: {
     display: "flex", 
-    flexDirection: "column", // change this to 'column' for mobile
+    flexDirection: "row", // change this to 'column' for mobile
     gap: "20px", // adjust this value as needed
+    fontSize: "1.5vw",
+
   },
   experiencesBoxStart: {
     backgroundColor: "#D9D9D9",
