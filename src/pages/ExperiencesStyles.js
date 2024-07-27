@@ -238,6 +238,20 @@ const mediaStyles = {
     fontSize: "1.5",
 
   },
+  class: {
+    display: 'flex',
+    flexDirection: 'column', // change this to 'column' for mobile
+    alignItems: 'center', // add this line
+    justifyContent: 'center', // add this line
+    margin: '10px', // adjust this value as needed
+    padding: '10px', // adjust this value as needed
+    fontFamily: "Black Ops One",
+    border: '1px solid #000',
+    borderRadius: '1.25em',
+    backgroundColor: '#D9D9D9',
+    boxShadow:
+      "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
+  },
 };
 
 const mergedStyles = window.matchMedia("(max-width: 900px)").matches
