@@ -183,6 +183,11 @@ const mediaStyles = {
     wordWrap: "break-word",
     frontsize: "2vh",
   },
+  experiences: {
+    display: "flex", 
+    flexDirection: "column", // change this to 'column' for mobile
+    gap: "20px", // adjust this value as needed
+  },
   experiencesBoxStart: {
     backgroundColor: "#D9D9D9",
     borderRadius: "1.25em",
