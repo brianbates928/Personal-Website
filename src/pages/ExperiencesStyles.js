@@ -133,7 +133,7 @@ const mediaStyles = {
     height: "8vh",
     borderRadius: "1.25em",
     fontFamily: "Indie Flower",
-    fontSize: "1vh",
+    fontSize: "1.3vh",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -218,7 +218,7 @@ const mediaStyles = {
     alignItems: "center",
     justifyContent: "center",
     wordWrap: "break-word",
-    fontSize: "1.5vw",
+    fontSize: "1vw",
     boxShadow:
       "0 4px 4px #580177, 0 4px 4px #580177,inset 0 4px 4px #580177, inset 0 0 50px black",
   },
@@ -226,13 +226,13 @@ const mediaStyles = {
     display: "flex",
     justifyContent: "flex-start",
     marginBottom: "3vh",
-     fontSize: "1.5",
+     fontSize: "1",
   },
   experienceRight: {
     display: "flex",
     justifyContent: "flex-end",
     marginBottom: "3vh",
-    fontSize: "1.5",
+    fontSize: "1",
 
   },
   class: {
