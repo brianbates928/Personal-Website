@@ -86,6 +86,8 @@ const styles = {
     display: "flex", 
     flexDirection: "row",
     gap: "40px",
+    flexWrap: "wrap", // Add this line to allow wrapping
+    justifyContent: "center",
   },  
   experiencesBox: {
     backgroundColor: "#D9D9D9",
@@ -93,7 +95,7 @@ const styles = {
     fontFamily: "Kavivanar",
     fontWeight: "bold",
     fontSize: "2.5vh",
-    width: "25vw",
+    width: "45%",
     height: "19vh",
     display: "flex",
     flexDirection: "column",

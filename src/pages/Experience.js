@@ -84,6 +84,11 @@ const Experience = () => {
 
 <div style={styles.experiences}>
 <div style={{...styles.experiencesBox, fontSize: window.innerWidth <= 900 ? '1.5vh' : '2.5vh'}}>
+        <p>Junior IT Admin</p>
+        <p>Earthcam, Upper Saddle River, NJ</p>
+        <p>Auguest 2025 - Present</p>
+        </div>
+<div style={{...styles.experiencesBox, fontSize: window.innerWidth <= 900 ? '1.5vh' : '2.5vh'}}>
         <p>Software Engineer Intern</p>
         <p>Visual Intelligence, LLC</p>
         <p>January 2024 - May 2024</p>
